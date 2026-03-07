@@ -30,7 +30,7 @@
 
 ---
 
-## �📖 项目简介
+## � 项目简介
 
 **数字员工团队管理系统** 是一套可视化的多 Agent (Multi-Agent) 协作平台，旨在解决 OpenClaw 用户在管理多个技能和 Agent 时面临的痛点。就像 Agent Teams 重构 AI 协作逻辑一样，本系统让 AI 团队从“零散组合”变成“有序分工”，大幅降低多 Agent 协作的搭建成本。
 
@@ -96,8 +96,8 @@
 
 ```mermaid
 graph TD
-    User[用户] --> |Web UI| Frontend[前端 (React + Vite)]
-    Frontend --> |REST API / WebSocket| Backend[后端 (Node.js + Express)]
+    User[用户] --> |Web UI| Frontend["前端 (React + Vite)"]
+    Frontend --> |REST API / WebSocket| Backend["后端 (Node.js + Express)"]
     Backend --> |HTTP / RPC| Gateway[OpenClaw Gateway]
     
     subgraph "数字员工层 (Agent Layer)"
