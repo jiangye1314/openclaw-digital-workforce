@@ -1,0 +1,29 @@
+{
+  "name": "openclaw-digital-workforce",
+  "version": "1.0.0",
+  "description": "数字员工团队管理系统 - OpenClaw 二次开发",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared",
+    "openclaw"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm dev:openclaw\" \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "dev:all": "concurrently \"pnpm dev:openclaw\" \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "dev:frontend": "cd frontend && pnpm dev",
+    "dev:backend": "cd backend && pnpm dev",
+    "dev:openclaw": "cd openclaw && pnpm dev",
+    "build": "pnpm build:shared && pnpm build:backend && pnpm build:openclaw && pnpm build:frontend",
+    "build:shared": "cd shared && pnpm build",
+    "build:frontend": "cd frontend && pnpm build",
+    "build:backend": "cd backend && pnpm build",
+    "build:openclaw": "cd openclaw && pnpm build",
+    "setup": "pnpm install && pnpm setup:openclaw",
+    "setup:openclaw": "cd openclaw && pnpm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

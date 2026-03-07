@@ -1,0 +1,1262 @@
+[
+  [
+    "aa595916-0e78-4b41-9d82-8a4d57653652",
+    {
+      "id": "aa595916-0e78-4b41-9d82-8a4d57653652",
+      "name": "张经理",
+      "avatar": "👨‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0001",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 1,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:26:43.610Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:02:31.987Z",
+      "updatedAt": "2026-03-06T10:26:43.610Z",
+      "nickname": "小张",
+      "profile": {
+        "age": 37,
+        "yearsOfService": 3,
+        "joinDate": "2023-03-07",
+        "location": "武汉",
+        "email": "empmmevav9p337@digitalteam.com",
+        "phone": "13800216253"
+      },
+      "expertise": [
+        "团队协调",
+        "需求分析",
+        "项目管理"
+      ]
+    }
+  ],
+  [
+    "22bd6681-a8ac-4c13-92cb-2dbcfca8056a",
+    {
+      "id": "22bd6681-a8ac-4c13-92cb-2dbcfca8056a",
+      "name": "陈工程师",
+      "avatar": "👩‍💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0001",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:02:31.990Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:02:31.990Z",
+      "updatedAt": "2026-03-06T10:02:31.990Z",
+      "nickname": "阿陈",
+      "profile": {
+        "age": 28,
+        "yearsOfService": 2,
+        "joinDate": "2024-03-06",
+        "location": "杭州",
+        "email": "empmmevav9p286@digitalteam.com",
+        "phone": "13830572109"
+      },
+      "expertise": [
+        "代码审查",
+        "TypeScript",
+        "Python",
+        "coding-agent"
+      ]
+    }
+  ],
+  [
+    "774cf7a8-2e47-4663-9726-02354818f255",
+    {
+      "id": "774cf7a8-2e47-4663-9726-02354818f255",
+      "name": "测试小",
+      "avatar": "🔍",
+      "role": "qa",
+      "roleName": "测试工程师",
+      "badgeNumber": "QA-0001",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#EA580C",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "测试用例设计",
+        "自动化测试",
+        "Bug 报告",
+        "性能测试",
+        "测试报告生成"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:02:31.991Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:02:31.991Z",
+      "updatedAt": "2026-03-06T10:02:31.991Z",
+      "nickname": "测儿",
+      "profile": {
+        "age": 26,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-08",
+        "location": "广州",
+        "email": "empmmevav9p466@digitalteam.com",
+        "phone": "13838311655"
+      },
+      "expertise": [
+        "github",
+        "coding-agent",
+        "自动化测试",
+        "测试用例"
+      ]
+    }
+  ],
+  [
+    "2ec436b4-51f6-4b1c-a475-e68ea256b00b",
+    {
+      "id": "2ec436b4-51f6-4b1c-a475-e68ea256b00b",
+      "name": "张经理",
+      "avatar": "👩‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0002",
+      "department": "创业团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:56:31.517Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:56:31.517Z",
+      "updatedAt": "2026-03-06T12:53:15.960Z",
+      "nickname": "张子",
+      "profile": {
+        "age": 31,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-08",
+        "location": "北京",
+        "email": "empmmevav9p650@digitalteam.com",
+        "phone": "13891025076"
+      },
+      "expertise": [
+        "团队协调",
+        "github",
+        "风险控制",
+        "notion"
+      ]
+    }
+  ],
+  [
+    "7749c28e-2d62-42cf-abe4-ab428a68556a",
+    {
+      "id": "7749c28e-2d62-42cf-abe4-ab428a68556a",
+      "name": "陈工程师",
+      "avatar": "👨‍💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0002",
+      "department": "创业团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:56:31.519Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:56:31.519Z",
+      "updatedAt": "2026-03-06T10:56:31.519Z",
+      "nickname": "老陈",
+      "profile": {
+        "age": 23,
+        "yearsOfService": 1,
+        "joinDate": "2025-03-06",
+        "location": "深圳",
+        "email": "empmmevav9p763@digitalteam.com",
+        "phone": "13846094381"
+      },
+      "expertise": [
+        "Python",
+        "notion",
+        "性能优化",
+        "github"
+      ]
+    }
+  ],
+  [
+    "3b4d7bbd-58a2-4eba-9abb-20a80c420402",
+    {
+      "id": "3b4d7bbd-58a2-4eba-9abb-20a80c420402",
+      "name": "林设计师",
+      "avatar": "🎨",
+      "role": "designer",
+      "roleName": "设计师",
+      "badgeNumber": "DES-0001",
+      "department": "创业团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#DB2777",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "UI/UX 设计",
+        "视觉设计",
+        "原型制作",
+        "设计规范制定",
+        "用户体验优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:56:31.519Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:56:31.519Z",
+      "updatedAt": "2026-03-06T10:56:31.519Z",
+      "nickname": "大林",
+      "profile": {
+        "age": 26,
+        "yearsOfService": 3,
+        "joinDate": "2023-03-07",
+        "location": "武汉",
+        "email": "empmmevav9p334@digitalteam.com",
+        "phone": "13828728424"
+      },
+      "expertise": [
+        "原型制作",
+        "Figma",
+        "UI设计",
+        "品牌设计"
+      ]
+    }
+  ],
+  [
+    "c9c43f0b-555a-4a9a-beef-3b1c91bc2c4b",
+    {
+      "id": "c9c43f0b-555a-4a9a-beef-3b1c91bc2c4b",
+      "name": "张经理",
+      "avatar": "👨‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0003",
+      "department": "项目制团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "gh-issues"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "default",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 1,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:59:51.175Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:57:56.691Z",
+      "updatedAt": "2026-03-06T10:59:51.175Z",
+      "nickname": "阿张",
+      "profile": {
+        "age": 34,
+        "yearsOfService": 3,
+        "joinDate": "2023-03-07",
+        "location": "广州",
+        "email": "empmmevav9p506@digitalteam.com",
+        "phone": "13874880622"
+      },
+      "expertise": [
+        "团队协调",
+        "风险控制",
+        "资源调度"
+      ]
+    }
+  ],
+  [
+    "cd2d5dbb-16ba-43cb-b720-cf14c4e94824",
+    {
+      "id": "cd2d5dbb-16ba-43cb-b720-cf14c4e94824",
+      "name": "陈工程师",
+      "avatar": "💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0003",
+      "department": "项目制团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "gh-issues"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "default",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:57:56.692Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:57:56.692Z",
+      "updatedAt": "2026-03-06T10:57:56.692Z",
+      "nickname": "大陈",
+      "profile": {
+        "age": 32,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-08",
+        "location": "成都",
+        "email": "empmmevav9p132@digitalteam.com",
+        "phone": "13864795399"
+      },
+      "expertise": [
+        "github",
+        "notion",
+        "系统架构"
+      ]
+    }
+  ],
+  [
+    "d8b4d1f2-01c3-4311-ba0f-c8d897dbf51d",
+    {
+      "id": "d8b4d1f2-01c3-4311-ba0f-c8d897dbf51d",
+      "name": "林设计师",
+      "avatar": "✏️",
+      "role": "designer",
+      "roleName": "设计师",
+      "badgeNumber": "DES-0002",
+      "department": "项目制团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "gh-issues"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "default",
+        "primaryColor": "#DB2777",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "UI/UX 设计",
+        "视觉设计",
+        "原型制作",
+        "设计规范制定",
+        "用户体验优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T10:57:56.693Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T10:57:56.693Z",
+      "updatedAt": "2026-03-06T10:57:56.693Z",
+      "nickname": "小林",
+      "profile": {
+        "age": 24,
+        "yearsOfService": 1,
+        "joinDate": "2025-03-06",
+        "location": "武汉",
+        "email": "empmmevav9p45@digitalteam.com",
+        "phone": "13895264388"
+      },
+      "expertise": [
+        "品牌设计",
+        "UI设计",
+        "notion"
+      ]
+    }
+  ],
+  [
+    "4e5d3dce-c5c8-4664-904e-a8e2526b4a55",
+    {
+      "id": "4e5d3dce-c5c8-4664-904e-a8e2526b4a55",
+      "name": "张经理",
+      "avatar": "👨‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0004",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.480Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.480Z",
+      "updatedAt": "2026-03-06T11:29:22.480Z",
+      "nickname": "张儿",
+      "profile": {
+        "age": 36,
+        "yearsOfService": 7,
+        "joinDate": "2019-03-08",
+        "location": "广州",
+        "email": "empmmevav9p613@digitalteam.com",
+        "phone": "13807001258"
+      },
+      "expertise": [
+        "资源调度",
+        "风险控制",
+        "团队协调"
+      ]
+    }
+  ],
+  [
+    "e28baf52-0936-49be-a7b2-515acfdfcb08",
+    {
+      "id": "e28baf52-0936-49be-a7b2-515acfdfcb08",
+      "name": "李经理",
+      "avatar": "👩‍💼",
+      "role": "manager",
+      "roleName": "项目经理",
+      "badgeNumber": "MAN-0005",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.482Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.482Z",
+      "updatedAt": "2026-03-06T11:29:22.482Z",
+      "nickname": "阿李",
+      "profile": {
+        "age": 35,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-08",
+        "location": "上海",
+        "email": "empmmevav9p239@digitalteam.com",
+        "phone": "13828449466"
+      },
+      "expertise": [
+        "项目管理",
+        "notion",
+        "github",
+        "团队协调",
+        "需求分析"
+      ]
+    }
+  ],
+  [
+    "04eb275e-ca22-40bb-ac28-d14c82751dd7",
+    {
+      "id": "04eb275e-ca22-40bb-ac28-d14c82751dd7",
+      "name": "陈工程师",
+      "avatar": "💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0004",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.484Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.484Z",
+      "updatedAt": "2026-03-06T11:29:22.484Z",
+      "nickname": "陈儿",
+      "profile": {
+        "age": 32,
+        "yearsOfService": 3,
+        "joinDate": "2023-03-07",
+        "location": "北京",
+        "email": "empmmevav9p196@digitalteam.com",
+        "phone": "13803501406"
+      },
+      "expertise": [
+        "github",
+        "notion",
+        "Python",
+        "TypeScript"
+      ]
+    }
+  ],
+  [
+    "9fb90ef9-f10a-476c-b640-60534a8b8aa6",
+    {
+      "id": "9fb90ef9-f10a-476c-b640-60534a8b8aa6",
+      "name": "刘工程师",
+      "avatar": "👨‍💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0005",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.485Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.485Z",
+      "updatedAt": "2026-03-06T11:29:22.485Z",
+      "nickname": "刘妹",
+      "profile": {
+        "age": 25,
+        "yearsOfService": 1,
+        "joinDate": "2025-03-06",
+        "location": "广州",
+        "email": "empmmevav9p540@digitalteam.com",
+        "phone": "13823702324"
+      },
+      "expertise": [
+        "github",
+        "性能优化",
+        "系统架构"
+      ]
+    }
+  ],
+  [
+    "b424fc34-6ef3-406d-8cc8-0cf75bbcac98",
+    {
+      "id": "b424fc34-6ef3-406d-8cc8-0cf75bbcac98",
+      "name": "林设计师",
+      "avatar": "✏️",
+      "role": "designer",
+      "roleName": "设计师",
+      "badgeNumber": "DES-0003",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#DB2777",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "UI/UX 设计",
+        "视觉设计",
+        "原型制作",
+        "设计规范制定",
+        "用户体验优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.485Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.485Z",
+      "updatedAt": "2026-03-06T11:29:22.485Z",
+      "nickname": "老林",
+      "profile": {
+        "age": 31,
+        "yearsOfService": 6,
+        "joinDate": "2020-03-07",
+        "location": "成都",
+        "email": "empmmevav9p570@digitalteam.com",
+        "phone": "13838113826"
+      },
+      "expertise": [
+        "github",
+        "品牌设计",
+        "用户体验",
+        "notion",
+        "Figma"
+      ]
+    }
+  ],
+  [
+    "bc75c60a-e9d4-45fb-a050-0e9ca45a1bd7",
+    {
+      "id": "bc75c60a-e9d4-45fb-a050-0e9ca45a1bd7",
+      "name": "徐分析师",
+      "avatar": "📈",
+      "role": "analyst",
+      "roleName": "数据分析师",
+      "badgeNumber": "ANA-0001",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#059669",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "数据收集和清洗",
+        "数据分析",
+        "生成报告",
+        "趋势预测",
+        "数据可视化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.486Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.486Z",
+      "updatedAt": "2026-03-06T11:29:22.486Z",
+      "nickname": "老徐",
+      "profile": {
+        "age": 30,
+        "yearsOfService": 6,
+        "joinDate": "2020-03-07",
+        "location": "广州",
+        "email": "empmmevav9p937@digitalteam.com",
+        "phone": "13886048920"
+      },
+      "expertise": [
+        "数据分析",
+        "SQL",
+        "Python",
+        "统计学"
+      ]
+    }
+  ],
+  [
+    "57fc07a5-c01a-4a13-8f9d-d681bb46b1b4",
+    {
+      "id": "57fc07a5-c01a-4a13-8f9d-d681bb46b1b4",
+      "name": "客服小",
+      "avatar": "🎧",
+      "role": "support",
+      "roleName": "客服专员",
+      "badgeNumber": "SUP-0001",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#7C3AED",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "客户咨询回复",
+        "问题记录和跟踪",
+        "知识库维护",
+        "客户满意度跟踪",
+        "反馈收集"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.487Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.487Z",
+      "updatedAt": "2026-03-06T11:29:22.487Z",
+      "nickname": "老客",
+      "profile": {
+        "age": 29,
+        "yearsOfService": 6,
+        "joinDate": "2020-03-07",
+        "location": "广州",
+        "email": "empmmevav9p873@digitalteam.com",
+        "phone": "13831734373"
+      },
+      "expertise": [
+        "notion",
+        "沟通协调",
+        "客户服务",
+        "问题诊断"
+      ]
+    }
+  ],
+  [
+    "f0cdd2ab-4a78-4409-8f5e-3e0532573e08",
+    {
+      "id": "f0cdd2ab-4a78-4409-8f5e-3e0532573e08",
+      "name": "测试小",
+      "avatar": "🧪",
+      "role": "qa",
+      "roleName": "测试工程师",
+      "badgeNumber": "QA-0002",
+      "department": "企业级团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "business",
+        "primaryColor": "#EA580C",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "测试用例设计",
+        "自动化测试",
+        "Bug 报告",
+        "性能测试",
+        "测试报告生成"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T11:29:22.488Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T11:29:22.488Z",
+      "updatedAt": "2026-03-06T11:29:22.488Z",
+      "nickname": "小测",
+      "profile": {
+        "age": 24,
+        "yearsOfService": 1,
+        "joinDate": "2025-03-06",
+        "location": "南京",
+        "email": "empmmevav9p343@digitalteam.com",
+        "phone": "13860207487"
+      },
+      "expertise": [
+        "github",
+        "notion",
+        "性能测试",
+        "质量保障"
+      ]
+    }
+  ],
+  [
+    "7d4a77ce-7c83-4c31-989c-db5fdad2758f",
+    {
+      "id": "7d4a77ce-7c83-4c31-989c-db5fdad2758f",
+      "name": "张经理",
+      "avatar": "👔",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0006",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T12:17:58.829Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T12:17:58.829Z",
+      "updatedAt": "2026-03-06T12:17:58.829Z",
+      "nickname": "张姐",
+      "profile": {
+        "age": 31,
+        "yearsOfService": 4,
+        "joinDate": "2022-03-07",
+        "location": "南京",
+        "email": "empmmevav9p139@digitalteam.com",
+        "phone": "13842644519"
+      },
+      "expertise": [
+        "风险控制",
+        "需求分析",
+        "团队协调"
+      ]
+    }
+  ],
+  [
+    "d7bf0c5e-f134-4238-9dac-9ce173288e0e",
+    {
+      "id": "d7bf0c5e-f134-4238-9dac-9ce173288e0e",
+      "name": "陈工程师",
+      "avatar": "👨‍💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0006",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T12:17:58.831Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T12:17:58.831Z",
+      "updatedAt": "2026-03-06T12:17:58.831Z",
+      "nickname": "陈哥",
+      "profile": {
+        "age": 26,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-08",
+        "location": "北京",
+        "email": "empmmevav9p468@digitalteam.com",
+        "phone": "13836854770"
+      },
+      "expertise": [
+        "TypeScript",
+        "Python",
+        "代码审查",
+        "性能优化"
+      ]
+    }
+  ],
+  [
+    "411e8c34-f117-4267-bb42-619fa8055712",
+    {
+      "id": "411e8c34-f117-4267-bb42-619fa8055712",
+      "name": "测试小",
+      "avatar": "📋",
+      "role": "qa",
+      "roleName": "测试工程师",
+      "badgeNumber": "QA-0003",
+      "department": "开发团队",
+      "status": "idle",
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "skills": [
+          "github",
+          "coding-agent",
+          "tmux",
+          "healthcheck"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#EA580C",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "测试用例设计",
+        "自动化测试",
+        "Bug 报告",
+        "性能测试",
+        "测试报告生成"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-06T12:17:58.832Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-06T12:17:58.832Z",
+      "updatedAt": "2026-03-06T12:17:58.832Z",
+      "nickname": "大测",
+      "profile": {
+        "age": 22,
+        "yearsOfService": 4,
+        "joinDate": "2022-03-07",
+        "location": "深圳",
+        "email": "empmmevav9p918@digitalteam.com",
+        "phone": "13833845269"
+      },
+      "expertise": [
+        "测试用例",
+        "github",
+        "Bug分析",
+        "自动化测试"
+      ]
+    }
+  ]
+]

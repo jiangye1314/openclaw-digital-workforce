@@ -1,0 +1,1027 @@
+[
+  [
+    "1c60559f-ce4a-48eb-a953-a0ef2babd3f1",
+    {
+      "id": "1c60559f-ce4a-48eb-a953-a0ef2babd3f1",
+      "name": "数据持久化测试团队",
+      "description": "测试数据持久化功能",
+      "template": "dev",
+      "employees": [
+        {
+          "id": "aa595916-0e78-4b41-9d82-8a4d57653652",
+          "name": "张经理",
+          "avatar": "👨‍💼",
+          "role": "manager",
+          "roleName": "团队负责人",
+          "badgeNumber": "MAN-0001",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:02:31.987Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:02:31.987Z",
+          "updatedAt": "2026-03-06T10:02:31.987Z"
+        },
+        {
+          "id": "22bd6681-a8ac-4c13-92cb-2dbcfca8056a",
+          "name": "陈工程师",
+          "avatar": "👩‍💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0001",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:02:31.990Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:02:31.990Z",
+          "updatedAt": "2026-03-06T10:02:31.990Z"
+        },
+        {
+          "id": "774cf7a8-2e47-4663-9726-02354818f255",
+          "name": "测试小",
+          "avatar": "🔍",
+          "role": "qa",
+          "roleName": "测试工程师",
+          "badgeNumber": "QA-0001",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#EA580C",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "测试用例设计",
+            "自动化测试",
+            "Bug 报告",
+            "性能测试",
+            "测试报告生成"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:02:31.991Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:02:31.991Z",
+          "updatedAt": "2026-03-06T10:02:31.991Z"
+        }
+      ],
+      "config": {
+        "coordinatorId": "aa595916-0e78-4b41-9d82-8a4d57653652",
+        "autoAssign": false,
+        "collaborationMode": "parallel"
+      },
+      "status": "active",
+      "stats": {
+        "totalTasks": 31,
+        "completedTasks": 21,
+        "activeProjects": 0
+      },
+      "createdAt": "2026-03-06T10:02:31.992Z",
+      "updatedAt": "2026-03-06T10:02:31.992Z"
+    }
+  ],
+  [
+    "04eb96c3-cf4f-47af-a12f-fb13732301d8",
+    {
+      "id": "04eb96c3-cf4f-47af-a12f-fb13732301d8",
+      "name": "测试团队",
+      "description": "API测试",
+      "template": "startup",
+      "employees": [
+        {
+          "id": "2ec436b4-51f6-4b1c-a475-e68ea256b00b",
+          "name": "张经理",
+          "avatar": "👩‍💼",
+          "role": "manager",
+          "roleName": "团队负责人",
+          "badgeNumber": "MAN-0002",
+          "department": "创业团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:56:31.517Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:56:31.517Z",
+          "updatedAt": "2026-03-06T10:56:31.517Z"
+        },
+        {
+          "id": "7749c28e-2d62-42cf-abe4-ab428a68556a",
+          "name": "陈工程师",
+          "avatar": "👨‍💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0002",
+          "department": "创业团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:56:31.519Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:56:31.519Z",
+          "updatedAt": "2026-03-06T10:56:31.519Z"
+        },
+        {
+          "id": "3b4d7bbd-58a2-4eba-9abb-20a80c420402",
+          "name": "林设计师",
+          "avatar": "🎨",
+          "role": "designer",
+          "roleName": "设计师",
+          "badgeNumber": "DES-0001",
+          "department": "创业团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#DB2777",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "UI/UX 设计",
+            "视觉设计",
+            "原型制作",
+            "设计规范制定",
+            "用户体验优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:56:31.519Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:56:31.519Z",
+          "updatedAt": "2026-03-06T10:56:31.519Z"
+        }
+      ],
+      "config": {
+        "coordinatorId": "2ec436b4-51f6-4b1c-a475-e68ea256b00b",
+        "autoAssign": false,
+        "collaborationMode": "hybrid"
+      },
+      "status": "active",
+      "stats": {
+        "totalTasks": 13,
+        "completedTasks": 9,
+        "activeProjects": 0
+      },
+      "createdAt": "2026-03-06T10:56:31.520Z",
+      "updatedAt": "2026-03-06T10:56:31.520Z"
+    }
+  ],
+  [
+    "b3a606fe-a9e1-489f-bd64-8564e69cc8c2",
+    {
+      "id": "b3a606fe-a9e1-489f-bd64-8564e69cc8c2",
+      "name": "项目团队",
+      "description": "围绕特定项目组建的临时团队",
+      "template": "project",
+      "employees": [
+        {
+          "id": "c9c43f0b-555a-4a9a-beef-3b1c91bc2c4b",
+          "name": "张经理",
+          "avatar": "👨‍💼",
+          "role": "manager",
+          "roleName": "团队负责人",
+          "badgeNumber": "MAN-0003",
+          "department": "项目制团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "gh-issues"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "default",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 1,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:59:51.175Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:57:56.691Z",
+          "updatedAt": "2026-03-06T10:59:51.175Z"
+        },
+        {
+          "id": "cd2d5dbb-16ba-43cb-b720-cf14c4e94824",
+          "name": "陈工程师",
+          "avatar": "💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0003",
+          "department": "项目制团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "gh-issues"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "default",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:57:56.692Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:57:56.692Z",
+          "updatedAt": "2026-03-06T10:57:56.692Z"
+        },
+        {
+          "id": "d8b4d1f2-01c3-4311-ba0f-c8d897dbf51d",
+          "name": "林设计师",
+          "avatar": "✏️",
+          "role": "designer",
+          "roleName": "设计师",
+          "badgeNumber": "DES-0002",
+          "department": "项目制团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "gh-issues"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "default",
+            "primaryColor": "#DB2777",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "UI/UX 设计",
+            "视觉设计",
+            "原型制作",
+            "设计规范制定",
+            "用户体验优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T10:57:56.693Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T10:57:56.693Z",
+          "updatedAt": "2026-03-06T10:57:56.693Z"
+        }
+      ],
+      "config": {
+        "coordinatorId": "c9c43f0b-555a-4a9a-beef-3b1c91bc2c4b",
+        "autoAssign": false,
+        "collaborationMode": "hybrid"
+      },
+      "status": "active",
+      "stats": {
+        "totalTasks": 2,
+        "completedTasks": 2,
+        "activeProjects": 0
+      },
+      "createdAt": "2026-03-06T10:57:56.693Z",
+      "updatedAt": "2026-03-06T10:57:56.693Z"
+    }
+  ],
+  [
+    "21d8a064-0ec7-4188-99c8-b2ea9aeced8a",
+    {
+      "id": "21d8a064-0ec7-4188-99c8-b2ea9aeced8a",
+      "name": "测试",
+      "description": "完整的企业级配置，包含所有职能角色",
+      "template": "enterprise",
+      "employees": [
+        {
+          "id": "4e5d3dce-c5c8-4664-904e-a8e2526b4a55",
+          "name": "张经理",
+          "avatar": "👨‍💼",
+          "role": "manager",
+          "roleName": "团队负责人",
+          "badgeNumber": "MAN-0004",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.480Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.480Z",
+          "updatedAt": "2026-03-06T11:29:22.480Z"
+        },
+        {
+          "id": "e28baf52-0936-49be-a7b2-515acfdfcb08",
+          "name": "李经理",
+          "avatar": "👩‍💼",
+          "role": "manager",
+          "roleName": "项目经理",
+          "badgeNumber": "MAN-0005",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.482Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.482Z",
+          "updatedAt": "2026-03-06T11:29:22.482Z"
+        },
+        {
+          "id": "04eb275e-ca22-40bb-ac28-d14c82751dd7",
+          "name": "陈工程师",
+          "avatar": "💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0004",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.484Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.484Z",
+          "updatedAt": "2026-03-06T11:29:22.484Z"
+        },
+        {
+          "id": "9fb90ef9-f10a-476c-b640-60534a8b8aa6",
+          "name": "刘工程师",
+          "avatar": "👨‍💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0005",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.485Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.485Z",
+          "updatedAt": "2026-03-06T11:29:22.485Z"
+        },
+        {
+          "id": "b424fc34-6ef3-406d-8cc8-0cf75bbcac98",
+          "name": "林设计师",
+          "avatar": "✏️",
+          "role": "designer",
+          "roleName": "设计师",
+          "badgeNumber": "DES-0003",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#DB2777",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "UI/UX 设计",
+            "视觉设计",
+            "原型制作",
+            "设计规范制定",
+            "用户体验优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.485Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.485Z",
+          "updatedAt": "2026-03-06T11:29:22.485Z"
+        },
+        {
+          "id": "bc75c60a-e9d4-45fb-a050-0e9ca45a1bd7",
+          "name": "徐分析师",
+          "avatar": "📈",
+          "role": "analyst",
+          "roleName": "数据分析师",
+          "badgeNumber": "ANA-0001",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#059669",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "数据收集和清洗",
+            "数据分析",
+            "生成报告",
+            "趋势预测",
+            "数据可视化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.486Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.486Z",
+          "updatedAt": "2026-03-06T11:29:22.486Z"
+        },
+        {
+          "id": "57fc07a5-c01a-4a13-8f9d-d681bb46b1b4",
+          "name": "客服小",
+          "avatar": "🎧",
+          "role": "support",
+          "roleName": "客服专员",
+          "badgeNumber": "SUP-0001",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#7C3AED",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "客户咨询回复",
+            "问题记录和跟踪",
+            "知识库维护",
+            "客户满意度跟踪",
+            "反馈收集"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.487Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.487Z",
+          "updatedAt": "2026-03-06T11:29:22.487Z"
+        },
+        {
+          "id": "f0cdd2ab-4a78-4409-8f5e-3e0532573e08",
+          "name": "测试小",
+          "avatar": "🧪",
+          "role": "qa",
+          "roleName": "测试工程师",
+          "badgeNumber": "QA-0002",
+          "department": "企业级团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "notion",
+              "slack",
+              "canvas",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+            }
+          },
+          "badgeStyle": {
+            "theme": "business",
+            "primaryColor": "#EA580C",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "测试用例设计",
+            "自动化测试",
+            "Bug 报告",
+            "性能测试",
+            "测试报告生成"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T11:29:22.488Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T11:29:22.488Z",
+          "updatedAt": "2026-03-06T11:29:22.488Z"
+        }
+      ],
+      "config": {
+        "coordinatorId": "4e5d3dce-c5c8-4664-904e-a8e2526b4a55",
+        "autoAssign": false,
+        "collaborationMode": "hybrid"
+      },
+      "status": "active",
+      "stats": {
+        "totalTasks": 4,
+        "completedTasks": 3,
+        "activeProjects": 0
+      },
+      "createdAt": "2026-03-06T11:29:22.488Z",
+      "updatedAt": "2026-03-06T11:29:22.488Z"
+    }
+  ],
+  [
+    "9a9d3d7c-6238-44f7-8c90-0bd183c05117",
+    {
+      "id": "9a9d3d7c-6238-44f7-8c90-0bd183c05117",
+      "name": "新测试团队",
+      "description": "验证新建团队对话功能",
+      "template": "dev",
+      "employees": [
+        {
+          "id": "7d4a77ce-7c83-4c31-989c-db5fdad2758f",
+          "name": "张经理",
+          "avatar": "👔",
+          "role": "manager",
+          "roleName": "团队负责人",
+          "badgeNumber": "MAN-0006",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#4F46E5",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "制定项目计划和时间表",
+            "协调团队成员工作",
+            "跟踪项目进度",
+            "风险管理",
+            "资源调配"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T12:17:58.829Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T12:17:58.829Z",
+          "updatedAt": "2026-03-06T12:17:58.829Z"
+        },
+        {
+          "id": "d7bf0c5e-f134-4238-9dac-9ce173288e0e",
+          "name": "陈工程师",
+          "avatar": "👨‍💻",
+          "role": "developer",
+          "roleName": "开发工程师",
+          "badgeNumber": "DEV-0006",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#0891B2",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "编写高质量代码",
+            "代码审查",
+            "技术方案设计",
+            "Bug 修复",
+            "性能优化"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T12:17:58.831Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T12:17:58.831Z",
+          "updatedAt": "2026-03-06T12:17:58.831Z"
+        },
+        {
+          "id": "411e8c34-f117-4267-bb42-619fa8055712",
+          "name": "测试小",
+          "avatar": "📋",
+          "role": "qa",
+          "roleName": "测试工程师",
+          "badgeNumber": "QA-0003",
+          "department": "开发团队",
+          "status": "idle",
+          "openclawConfig": {
+            "gatewayUrl": "http://localhost:3457",
+            "gatewayType": "local",
+            "skills": [
+              "github",
+              "coding-agent",
+              "tmux",
+              "healthcheck"
+            ],
+            "model": "kimi-coding",
+            "modelConfig": {
+              "baseUrl": "https://api.kimi.com/coding/",
+              "apiKey": "sk-kimi-fIcnOAIr21RwcaaEejhdzubHT23yeSDXlcLcVnmUCER9SnOK2EoTDmaMSQASBAzc"
+            }
+          },
+          "badgeStyle": {
+            "theme": "tech",
+            "primaryColor": "#EA580C",
+            "secondaryColor": "#1E40AF"
+          },
+          "responsibilities": [
+            "测试用例设计",
+            "自动化测试",
+            "Bug 报告",
+            "性能测试",
+            "测试报告生成"
+          ],
+          "stats": {
+            "tasksCompleted": 0,
+            "uptime": 0,
+            "lastActive": "2026-03-06T12:17:58.832Z",
+            "efficiency": 100
+          },
+          "createdAt": "2026-03-06T12:17:58.832Z",
+          "updatedAt": "2026-03-06T12:17:58.832Z"
+        }
+      ],
+      "config": {
+        "coordinatorId": "7d4a77ce-7c83-4c31-989c-db5fdad2758f",
+        "autoAssign": false,
+        "collaborationMode": "parallel"
+      },
+      "status": "active",
+      "stats": {
+        "totalTasks": 3,
+        "completedTasks": 2,
+        "activeProjects": 0
+      },
+      "createdAt": "2026-03-06T12:17:58.832Z",
+      "updatedAt": "2026-03-06T12:17:58.832Z"
+    }
+  ]
+]

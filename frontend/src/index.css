@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ma+Shan+Zheng&family=Caveat:wght@400;700&family=Zeyada&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 手写笔记本配色 - 墨水与纸张 */
+  --ink-primary: #2c3e50;
+  --ink-secondary: #34495e;
+  --ink-light: #5d6d7e;
+  --ink-blue: #2874a6;
+  --ink-red: #c0392b;
+  --ink-green: #1e8449;
+
+  /* 纸张颜色 */
+  --paper-white: #faf8f3;
+  --paper-cream: #f5f2e8;
+  --paper-yellow: #fef9e7;
+  --paper-gray: #f0f0f0;
+
+  /* 线条颜色 */
+  --line-blue: #a8d8ea;
+  --line-gray: #d5d5d5;
+  --line-red: #ffb6b9;
+
+  /* 高亮颜色 */
+  --highlight-yellow: #fff59d;
+  --highlight-pink: #ffcdd2;
+  --highlight-blue: #b3e5fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Ma Shan Zheng', 'Indie Flower', 'Caveat', 'Zeyada', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--paper-cream);
+  color: var(--ink-primary);
+  min-height: 100vh;
+  background-image:
+    linear-gradient(var(--line-gray) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-gray) 1px, transparent 1px);
+  background-size: 100% 28px, 28px 100%;
+  background-position: 0 0;
+}
+
+/* 手写字体类 */
+.font-handwriting {
+  font-family: 'Ma Shan Zheng', 'Indie Flower', cursive;
+}
+
+.font-handwriting-cn {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+.font-handwriting-en {
+  font-family: 'Indie Flower', 'Caveat', cursive;
+}
+
+/* 纸张背景变体 */
+.paper-white {
+  background-color: var(--paper-white);
+}
+
+.paper-cream {
+  background-color: var(--paper-cream);
+}
+
+.paper-yellow {
+  background-color: var(--paper-yellow);
+}
+
+/* 横线纸张效果 */
+.paper-lined {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    var(--line-blue) 27px,
+    var(--line-blue) 28px
+  );
+  line-height: 28px;
+}
+
+/* 方格纸张效果 */
+.paper-grid {
+  background-image:
+    linear-gradient(var(--line-gray) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-gray) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* 点阵纸张效果 */
+.paper-dots {
+  background-image: radial-gradient(var(--line-gray) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* 笔记本边缘效果 */
+.notebook-edge {
+  position: relative;
+  border-left: 3px solid var(--line-red);
+  padding-left: 1.5rem;
+}
+
+.notebook-edge::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: repeating-linear-gradient(
+    var(--line-red) 0px,
+    var(--line-red) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+
+/* 便利贴效果 */
+.sticky-note {
+  background: linear-gradient(135deg, #fff59d 0%, #fff176 100%);
+  box-shadow:
+    2px 3px 8px rgba(0,0,0,0.15),
+    0 0 0 1px rgba(0,0,0,0.05);
+  transform: rotate(-1deg);
+  transition: all 0.3s ease;
+}
+
+.sticky-note:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow:
+    4px 6px 12px rgba(0,0,0,0.2),
+    0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.sticky-note.pink {
+  background: linear-gradient(135deg, #ffcdd2 0%, #ef9a9a 100%);
+}
+
+.sticky-note.blue {
+  background: linear-gradient(135deg, #b3e5fc 0%, #81d4fa 100%);
+}
+
+.sticky-note.green {
+  background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 100%);
+}
+
+/* 手画边框 */
+.sketch-border {
+  border: 2px solid var(--ink-primary);
+  border-radius: 2px 8px 4px 12px;
+  position: relative;
+}
+
+.sketch-border::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 1px solid var(--ink-primary);
+  border-radius: 4px 2px 8px 3px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* 胶带效果 */
+.tape {
+  position: relative;
+}
+
+.tape::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 80px;
+  height: 24px;
+  background: rgba(255,255,255,0.6);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-left: 2px dotted rgba(0,0,0,0.1);
+  border-right: 2px dotted rgba(0,0,0,0.1);
+}
+
+/* 手写按钮 */
+.btn-handwriting {
+  font-family: 'Ma Shan Zheng', 'Indie Flower', cursive;
+  border: 2px solid var(--ink-primary);
+  background: var(--paper-white);
+  color: var(--ink-primary);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink-primary);
+  transition: all 0.1s ease;
+  border-radius: 4px 2px 6px 3px;
+}
+
+.btn-handwriting:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--ink-primary);
+}
+
+.btn-handwriting:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink-primary);
+}
+
+.btn-handwriting.primary {
+  background: var(--ink-blue);
+  color: white;
+}
+
+.btn-handwriting.danger {
+  background: var(--ink-red);
+  color: white;
+}
+
+/* 马克笔标记 */
+.marker-highlight {
+  background: linear-gradient(180deg,
+    transparent 60%,
+    var(--highlight-yellow) 60%,
+    var(--highlight-yellow) 90%,
+    transparent 90%
+  );
+}
+
+.marker-highlight.pink {
+  background: linear-gradient(180deg,
+    transparent 60%,
+    var(--highlight-pink) 60%,
+    var(--highlight-pink) 90%,
+    transparent 90%
+  );
+}
+
+.marker-highlight.blue {
+  background: linear-gradient(180deg,
+    transparent 60%,
+    var(--highlight-blue) 60%,
+    var(--highlight-blue) 90%,
+    transparent 90%
+  );
+}
+
+/* 涂鸦装饰 */
+.doodle-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.doodle-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--ink-primary);
+  border-radius: 50% 20% 40% 60%;
+  opacity: 0.6;
+}
+
+/* 复选框 - 手绘风格 */
+.checkbox-handwriting {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--ink-primary);
+  border-radius: 3px 5px 2px 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-handwriting:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: var(--ink-primary);
+}
+
+/* 输入框 - 笔记本风格 */
+.input-notebook {
+  font-family: 'Ma Shan Zheng', 'Indie Flower', cursive;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--line-blue);
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-notebook:focus {
+  border-bottom-color: var(--ink-blue);
+}
+
+/* 手写卡片 */
+.card-handwriting {
+  background: var(--paper-white);
+  border: 2px solid var(--ink-primary);
+  border-radius: 3px 8px 5px 12px;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  position: relative;
+}
+
+.card-handwriting::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, transparent 50%, rgba(0,0,0,0.03) 50%);
+  border-radius: 0 0 0 8px;
+}
+
+/* Custom scrollbar - 手写风格 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--paper-cream);
+  border-left: 1px solid var(--line-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ink-light);
+  border: 2px solid var(--paper-cream);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-primary);
+}
+
+/* 动画效果 */
+@keyframes scribble {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(1px, 1px) rotate(0.5deg); }
+  50% { transform: translate(-1px, 1px) rotate(-0.5deg); }
+  75% { transform: translate(1px, -1px) rotate(0.5deg); }
+}
+
+.scribble-animation {
+  animation: scribble 0.5s ease-in-out;
+}
+
+@keyframes write {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.write-animation {
+  animation: write 0.3s ease-out;
+}
+
+/* 墨水印章效果 */
+.stamp {
+  border: 3px solid var(--ink-red);
+  color: var(--ink-red);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transform: rotate(-5deg);
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* 撕纸边缘效果 */
+.torn-edge {
+  position: relative;
+}
+
+.torn-edge::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(45deg, transparent 33.333%, var(--paper-cream) 33.333%, var(--paper-cream) 66.667%, transparent 66.667%),
+              linear-gradient(-45deg, transparent 33.333%, var(--paper-cream) 33.333%, var(--paper-cream) 66.667%, transparent 66.667%);
+  background-size: 20px 40px;
+  background-position: 0 -20px;
+}
+
+/* 原有动画保留 */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.badge-shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.2) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* 状态指示器 - 墨水风格 */
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid;
+}
+
+.status-active {
+  background-color: #1e8449;
+  border-color: #145a32;
+  box-shadow: 0 0 0 2px rgba(30, 132, 73, 0.3);
+}
+
+.status-idle {
+  background-color: #f39c12;
+  border-color: #b7950b;
+  box-shadow: 0 0 0 2px rgba(243, 156, 18, 0.3);
+}
+
+.status-busy {
+  background-color: #c0392b;
+  border-color: #922b21;
+  box-shadow: 0 0 0 2px rgba(192, 57, 43, 0.3);
+}
+
+.status-offline {
+  background-color: #7f8c8d;
+  border-color: #566573;
+}
+
+.status-error {
+  background-color: #8e44ad;
+  border-color: #6c3483;
+}
+
+/* 保留原有渐变 */
+.gradient-primary {
+  background: linear-gradient(135deg, #2874a6 0%, #1a5276 100%);
+}
+
+.gradient-tech {
+  background: linear-gradient(135deg, #148f77 0%, #0e6655 50%, #117a65 100%);
+}
+
+.gradient-creative {
+  background: linear-gradient(135deg, #c0392b 0%, #922b21 50%, #7b241c 100%);
+}
+
+.gradient-business {
+  background: linear-gradient(135deg, #5d4e6d 0%, #4a3b59 100%);
+}
+
+/* 翻转卡片效果 */
+.flip-card-container {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px 3px 12px 5px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+/* 墨水橙色 */
+.text-ink-orange {
+  color: #e67e22;
+}

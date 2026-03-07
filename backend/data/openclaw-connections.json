@@ -1,0 +1,27 @@
+[
+  [
+    "b2719ce6-ad97-41b4-8bfd-d4d17ecce523",
+    {
+      "id": "b2719ce6-ad97-41b4-8bfd-d4d17ecce523",
+      "name": "本地 OpenClaw",
+      "type": "local",
+      "url": "http://localhost:3457",
+      "description": "本地 OpenClaw 实例",
+      "status": "connected",
+      "config": {
+        "timeout": 30000,
+        "retryAttempts": 3
+      },
+      "metadata": {
+        "channels": [],
+        "skills": [],
+        "tags": [],
+        "isDefault": true,
+        "provider": "local"
+      },
+      "lastConnected": "2026-03-07T07:14:39.395Z",
+      "createdAt": "2026-03-06T10:31:28.568Z",
+      "updatedAt": "2026-03-06T10:31:28.568Z"
+    }
+  ]
+]
