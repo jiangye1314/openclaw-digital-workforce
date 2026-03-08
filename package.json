@@ -1,7 +1,8 @@
 {
-  "name": "openclaw-digital-workforce",
+  "name": "today-i-am-shrimp-boss",
+  "productName": "今天我是虾老板",
   "version": "1.0.0",
-  "description": "数字员工团队管理系统 - OpenClaw 二次开发",
+  "description": "今天我是虾老板 - 数字员工团队管理系统",
   "private": true,
   "workspaces": [
     "frontend",
@@ -21,9 +22,18 @@
     "build:backend": "cd backend && pnpm build",
     "build:openclaw": "cd openclaw && pnpm build",
     "setup": "pnpm install && pnpm setup:openclaw",
-    "setup:openclaw": "cd openclaw && pnpm install"
+    "setup:openclaw": "cd openclaw && pnpm install",
+    "electron:dev": "concurrently \"pnpm dev:frontend\" \"pnpm dev:backend\" \"wait-on tcp:5173 && electron electron/main.js\"",
+    "build:electron": "node scripts/build-backend.js && pnpm build:frontend",
+    "dist:mac": "pnpm build:electron && electron-builder --mac --config electron-builder.json",
+    "dist:win": "pnpm build:electron && electron-builder --win --config electron-builder.json"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1",
+    "esbuild": "^0.27.3",
+    "tsdown": "^0.21.0",
+    "wait-on": "^9.0.4"
   }
 }

@@ -64,8 +64,8 @@ export function Layout({ children }: LayoutProps) {
               <div className="flex items-center">
                 <span className="text-2xl mr-2">🦞</span>
                 <div>
-                  <h1 className="font-bold text-ink-primary text-lg leading-tight">数字员工</h1>
-                  <p className="text-xs text-ink-light">团队管理系统</p>
+                  <h1 className="font-bold text-ink-primary text-lg leading-tight">今天我是虾老板</h1>
+                  <p className="text-xs text-ink-light">数字员工团队</p>
                 </div>
               </div>
             </div>

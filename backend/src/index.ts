@@ -1,5 +1,5 @@
 // ============================================
-// 数字员工团队管理系统 - 后端服务
+// 今天我是虾老板 - 后端服务
 // ============================================
 
 import 'dotenv/config'; // 加载 .env 文件
@@ -89,7 +89,7 @@ wss.on('connection', (ws) => {
   ws.send(JSON.stringify({
     type: 'connected',
     timestamp: new Date().toISOString(),
-    payload: { message: '已连接到数字员工团队管理系统' }
+    payload: { message: '已连接到今天我是虾老板系统' }
   }));
 });
 
@@ -185,7 +185,7 @@ async function showConnectionStats() {
 
 // 启动服务器
 server.listen(PORT, async () => {
-  console.log(chalk.green.bold('\n🦞 数字员工团队管理系统'));
+  console.log(chalk.green.bold('\n🦞 今天我是虾老板 (OpenClaw Digital Workforce)'));
   console.log(chalk.cyan('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'));
   console.log(chalk.white(`API 服务: http://localhost:${PORT}`));
   console.log(chalk.white(`WebSocket: ws://localhost:${PORT}/ws`));

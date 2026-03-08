@@ -1,0 +1,27 @@
+{
+  "appId": "com.openclaw.shrimpboss",
+  "productName": "今天我是虾老板",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist-electron/**/*",
+    "backend/dist/**/*",
+    "frontend/dist/**/*",
+    "electron/**/*",
+    "package.json",
+    "node_modules/**/*"
+  ],
+  "mac": {
+    "target": ["dmg", "zip"],
+    "artifactName": "${productName}-${version}-mac.${ext}"
+  },
+  "win": {
+    "target": ["nsis", "zip"],
+    "artifactName": "${productName}-${version}-win.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}

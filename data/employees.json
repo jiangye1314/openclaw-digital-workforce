@@ -1,0 +1,323 @@
+[
+  [
+    "0dab1563-e740-4a8c-9441-972b0c5e00a0",
+    {
+      "id": "0dab1563-e740-4a8c-9441-972b0c5e00a0",
+      "name": "张经理",
+      "nickname": "张弟",
+      "avatar": "👩‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0001",
+      "department": "创业团队",
+      "status": "idle",
+      "profile": {
+        "age": 34,
+        "yearsOfService": 2,
+        "joinDate": "2024-03-07",
+        "location": "广州",
+        "email": "empmmgcwb1k@digitalteam.com",
+        "phone": "13843083393"
+      },
+      "expertise": [
+        "slack",
+        "canvas",
+        "需求分析",
+        "资源调度",
+        "notion"
+      ],
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "apiKey": "",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-07T13:25:43.016Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-07T13:25:43.016Z",
+      "updatedAt": "2026-03-07T13:25:43.016Z"
+    }
+  ],
+  [
+    "c46b24c2-b192-4f1a-bf3b-905c429a095b",
+    {
+      "id": "c46b24c2-b192-4f1a-bf3b-905c429a095b",
+      "name": "陈工程师",
+      "nickname": "老陈",
+      "avatar": "🖥️",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0001",
+      "department": "创业团队",
+      "status": "idle",
+      "profile": {
+        "age": 25,
+        "yearsOfService": 8,
+        "joinDate": "2018-03-09",
+        "location": "北京",
+        "email": "empmmgcwb1o@digitalteam.com",
+        "phone": "13858556240"
+      },
+      "expertise": [
+        "性能优化",
+        "github",
+        "Python",
+        "notion"
+      ],
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "apiKey": "",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-07T13:25:43.020Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-07T13:25:43.020Z",
+      "updatedAt": "2026-03-07T13:25:43.020Z"
+    }
+  ],
+  [
+    "be94d169-4dd0-40e4-a40e-d1a9d03bdd9c",
+    {
+      "id": "be94d169-4dd0-40e4-a40e-d1a9d03bdd9c",
+      "name": "林设计师",
+      "nickname": "林弟",
+      "avatar": "🎨",
+      "role": "designer",
+      "roleName": "设计师",
+      "badgeNumber": "DES-0001",
+      "department": "创业团队",
+      "status": "idle",
+      "profile": {
+        "age": 26,
+        "yearsOfService": 2,
+        "joinDate": "2024-03-07",
+        "location": "广州",
+        "email": "empmmgcwb1o@digitalteam.com",
+        "phone": "13833680233"
+      },
+      "expertise": [
+        "canvas",
+        "原型制作",
+        "slack",
+        "用户体验",
+        "Figma"
+      ],
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "apiKey": "",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#DB2777",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "UI/UX 设计",
+        "视觉设计",
+        "原型制作",
+        "设计规范制定",
+        "用户体验优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-07T13:25:43.020Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-07T13:25:43.020Z",
+      "updatedAt": "2026-03-07T13:25:43.020Z"
+    }
+  ],
+  [
+    "9faa2490-262a-4fbc-9757-90406afaf627",
+    {
+      "id": "9faa2490-262a-4fbc-9757-90406afaf627",
+      "name": "张经理",
+      "nickname": "张子",
+      "avatar": "👩‍💼",
+      "role": "manager",
+      "roleName": "团队负责人",
+      "badgeNumber": "MAN-0002",
+      "department": "创业团队",
+      "status": "idle",
+      "profile": {
+        "age": 38,
+        "yearsOfService": 7,
+        "joinDate": "2019-03-09",
+        "location": "深圳",
+        "email": "empmmgi3mie@digitalteam.com",
+        "phone": "13820485158"
+      },
+      "expertise": [
+        "notion",
+        "风险控制",
+        "资源调度"
+      ],
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "apiKey": "",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#4F46E5",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "制定项目计划和时间表",
+        "协调团队成员工作",
+        "跟踪项目进度",
+        "风险管理",
+        "资源调配"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-07T15:51:22.550Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-07T15:51:22.550Z",
+      "updatedAt": "2026-03-07T15:51:22.550Z"
+    }
+  ],
+  [
+    "9eca8f9b-9e70-4fbf-8b36-d88c9d120070",
+    {
+      "id": "9eca8f9b-9e70-4fbf-8b36-d88c9d120070",
+      "name": "陈工程师",
+      "nickname": "陈子",
+      "avatar": "💻",
+      "role": "developer",
+      "roleName": "开发工程师",
+      "badgeNumber": "DEV-0002",
+      "department": "创业团队",
+      "status": "idle",
+      "profile": {
+        "age": 27,
+        "yearsOfService": 3,
+        "joinDate": "2023-03-08",
+        "location": "北京",
+        "email": "empmmgi3mif@digitalteam.com",
+        "phone": "13885778141"
+      },
+      "expertise": [
+        "系统架构",
+        "TypeScript",
+        "性能优化",
+        "Python"
+      ],
+      "openclawConfig": {
+        "gatewayUrl": "http://localhost:3457",
+        "gatewayType": "local",
+        "apiKey": "",
+        "skills": [
+          "github",
+          "notion",
+          "slack",
+          "canvas"
+        ],
+        "model": "kimi-coding",
+        "modelConfig": {
+          "baseUrl": "https://api.kimi.com/coding/",
+          "apiKey": "sk-kimi-xMy2WMz9zlPAfX4rqhEnUAxbKFuqm4nFB7J9kYE2DYZ8ylLFhh5NDo4sB6vroIMd"
+        }
+      },
+      "badgeStyle": {
+        "theme": "tech",
+        "primaryColor": "#0891B2",
+        "secondaryColor": "#1E40AF"
+      },
+      "responsibilities": [
+        "编写高质量代码",
+        "代码审查",
+        "技术方案设计",
+        "Bug 修复",
+        "性能优化"
+      ],
+      "stats": {
+        "tasksCompleted": 0,
+        "uptime": 0,
+        "lastActive": "2026-03-07T15:51:22.551Z",
+        "efficiency": 100
+      },
+      "createdAt": "2026-03-07T15:51:22.551Z",
+      "updatedAt": "2026-03-07T15:51:22.551Z"
+    }
+  ]
+]

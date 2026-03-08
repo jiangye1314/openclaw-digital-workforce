@@ -1,0 +1,55 @@
+[
+  [
+    "2f2426b6-5ddc-485f-a495-17aa889abe6b",
+    {
+      "id": "2f2426b6-5ddc-485f-a495-17aa889abe6b",
+      "name": "11",
+      "type": "local",
+      "url": "http://localhost:3457",
+      "description": "本地 OpenClaw 实例 (http://localhost:3457)",
+      "status": "connected",
+      "config": {
+        "apiKey": "",
+        "timeout": 120000,
+        "retryAttempts": 3
+      },
+      "metadata": {
+        "version": "2026.3.3",
+        "channels": [],
+        "skills": [],
+        "tags": [],
+        "isDefault": false,
+        "provider": "local"
+      },
+      "lastConnected": "2026-03-07T15:52:21.323Z",
+      "createdAt": "2026-03-07T13:25:20.084Z",
+      "updatedAt": "2026-03-07T13:25:20.084Z"
+    }
+  ],
+  [
+    "b8670286-d2c5-49fd-87e0-1e066cfe90ef",
+    {
+      "id": "b8670286-d2c5-49fd-87e0-1e066cfe90ef",
+      "name": "测试连接",
+      "type": "local",
+      "url": "http://localhost:3457",
+      "description": "本地 OpenClaw 实例 (http://localhost:3457)",
+      "status": "connected",
+      "config": {
+        "timeout": 120000,
+        "retryAttempts": 3
+      },
+      "metadata": {
+        "version": "2026.3.3",
+        "channels": [],
+        "skills": [],
+        "tags": [],
+        "isDefault": false,
+        "provider": "local"
+      },
+      "lastConnected": "2026-03-07T15:51:44.994Z",
+      "createdAt": "2026-03-07T15:51:44.994Z",
+      "updatedAt": "2026-03-07T15:51:44.994Z"
+    }
+  ]
+]

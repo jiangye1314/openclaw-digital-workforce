@@ -43,3 +43,8 @@ coverage/
 
 # Documentation
 *.docx
+# 发布文件
+release/
+*.dmg
+*.zip
+tmp-app/

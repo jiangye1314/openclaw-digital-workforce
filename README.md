@@ -1,4 +1,4 @@
-# 🦞 数字员工团队管理系统 (OpenClaw Digital Workforce)
+# 🦞 今天我是虾老板 (OpenClaw Digital Workforce)
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenClaw-Powered-blue?style=for-the-badge&logo=openai" alt="OpenClaw">

@@ -15,7 +15,8 @@
     "node-fetch": "^3.3.2",
     "uuid": "^9.0.1",
     "ws": "^8.19.0",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "@openclaw-digital-workforce/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
